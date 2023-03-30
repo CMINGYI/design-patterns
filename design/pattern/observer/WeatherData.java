@@ -1,6 +1,7 @@
 package pattern.observer;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -34,7 +35,7 @@ public class WeatherData implements Subject{
     @Override
     public void removeObserver(Observer observer) {
         int i = observerList.indexOf(observer);
-        if (i > 0) {
+        if (i >= 0) {
             observerList.remove(observer);
         }
 
@@ -42,6 +43,9 @@ public class WeatherData implements Subject{
 
     @Override
     public void notifyObservers() {
+        if (observerList.isEmpty()) {
+            System.out.println("observer is  empty");
+        }
        observerList.forEach(o -> o.update(temperature, humidity, pressure));
     }
 
