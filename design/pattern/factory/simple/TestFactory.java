@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.simple;
 
 public class TestFactory {
     public static void main(String[] args) {

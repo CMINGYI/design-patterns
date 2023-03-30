@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.simple;
 
 /**
  * 实现了操纵产品的所有方法 不实现工厂方法

@@ -1,4 +1,4 @@
-package pattern.factory;
+package pattern.factory.simple;
 
 /**
  * 具体产品

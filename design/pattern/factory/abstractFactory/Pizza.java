@@ -1,2 +1,4 @@
-package pattern.factory.abstractFactory;public class Pizza {
+package pattern.factory.abstractFactory;
+
+public abstract class Pizza {
 }

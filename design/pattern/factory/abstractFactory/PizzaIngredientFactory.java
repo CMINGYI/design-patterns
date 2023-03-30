@@ -1,2 +1,4 @@
-package pattern.factory.abstractFactory;public class PizzaIngredientFactory {
+package pattern.factory.abstractFactory;
+
+public interface PizzaIngredientFactory {
 }
